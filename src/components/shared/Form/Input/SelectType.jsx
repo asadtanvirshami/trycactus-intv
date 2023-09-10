@@ -21,9 +21,8 @@ const SelectType = ({
         required={required}
         className={className}
       >
-        <option value="option1">{options}</option>
-        <option value="option2">Option 2</option>
-        <option value="option3">Option 3</option>
+        <option value="option1 hide">Select {label}</option>
+        <option value="option1 ">{options}</option>
       </select>
     </>
   );

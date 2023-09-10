@@ -278,7 +278,7 @@ const Financing = ({ step, setStep, handlePrevious, PropertyFormItems }) => {
           </div>
         </div>
       </form>
-      <div className="static sm:static lg:absolute bottom-1 lg:right-12">
+      <div className=" sm:static lg:text-right mt-[68px] lg:right-18">
         {step !== 0 && (
           <Button
             title={"Back"}
